@@ -5,8 +5,11 @@ public class Player {
 	private String userName;
 	private int highScore;
 	
-	public Player() {
-		
+	
+	
+	public Player(String userName, int highScore) {
+		this.userName = userName;
+		this.highScore = highScore;
 	}
 	public String getUserName() {
 		return userName;
