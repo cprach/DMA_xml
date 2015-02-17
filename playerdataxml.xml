@@ -2,9 +2,15 @@
 <players>
 	<player username="Straven">
 		<highScore>49098</highScore>
+		<previousscore>30</previousscore>
+		<previousscore>20</previousscore>
+		<previousscore>10</previousscore>
 	</player>
 	<player username="KiddThunda">
 		<highScore>35878</highScore>
+		<previousscore>33</previousscore>
+		<previousscore>22</previousscore>
+		<previousscore>11</previousscore>
 	</player>
 	<player username="sparkles">
 		<highScore>30223</highScore>

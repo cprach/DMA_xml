@@ -1,15 +1,18 @@
 package com.cp.dma.xml;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Player {
-	
+
 	private String userName;
 	private int highScore;
-	
-	
-	
-	public Player(String userName, int highScore) {
-		this.userName = userName;
-		this.highScore = highScore;
+	private List<Integer> previousScores = new ArrayList<Integer>();
+
+	public Player(String userName, int highScore, List<Integer> previousScores) {
+		setUserName(userName);
+		setHighScore(highScore);
+		setPreviousScores(previousScores);
 	}
 	public String getUserName() {
 		return userName;
@@ -23,7 +26,12 @@ public class Player {
 	public void setHighScore(int highScore) {
 		this.highScore = highScore;
 	}
-	
+	public List<Integer> getPreviousScores() {
+		return previousScores;
+	}
+	public void setPreviousScores(List<Integer> previousScores) {
+		this.previousScores = previousScores;
+	}
 	
 
 }
