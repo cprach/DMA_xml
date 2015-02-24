@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <players>
 	<player username="Straven">
-		<highScore>49098</highScore>
+		<highscore>49098</highscore>
 		<previousscore>30</previousscore>
 		<previousscore>20</previousscore>
 		<previousscore>10</previousscore>
 	</player>
 	<player username="KiddThunda">
-		<highScore>35878</highScore>
+		<highscore>35878</highscore>
 		<previousscore>33</previousscore>
 		<previousscore>22</previousscore>
 		<previousscore>11</previousscore>
 	</player>
 	<player username="sparkles">
-		<highScore>30223</highScore>
+		<highscore>30223</highscore>
 	</player>
 </players>

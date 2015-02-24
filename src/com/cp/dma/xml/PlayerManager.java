@@ -38,8 +38,8 @@ public class PlayerManager {
 				String player = node.getAttributes().getNamedItem("username").getNodeValue();
 				System.out.println("player: " + player);
 
-				int highScore = Integer.parseInt(topElement.getElementsByTagName("highScore").item(0).getChildNodes().item(0).getNodeValue());
-				System.out.println("highScore: " + highScore);
+				int highScore = Integer.parseInt(topElement.getElementsByTagName("highscore").item(0).getChildNodes().item(0).getNodeValue());
+				System.out.println("highscore: " + highScore);
 								
 				List<Integer> elements = new ArrayList<Integer>();
 			      NodeList children = topElement.getElementsByTagName("previousscore");
