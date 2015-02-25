@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<players>
-	<player username="Straven">
-		<highScore>49098</highScore>
-		<previousscore>30</previousscore>
-		<previousscore>20</previousscore>
-		<previousscore>10</previousscore>
-	</player>
-	<player username="KiddThunda">
-		<highScore>35878</highScore>
-		<previousscore>33</previousscore>
-		<previousscore>22</previousscore>
-		<previousscore>11</previousscore>
-	</player>
-	<player username="sparkles">
-		<highScore>30223</highScore>
-	</player>
-</players>
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+   <server id="500">
+      <region>AU</region>
+      <servername>Ghost</servername>
+      <players>
+         <player username="Straven">
+            <highScore>49098</highScore>
+            <previousscore>48090</previousscore>
+            <previousscore>45232</previousscore>
+            <previousscore>44931</previousscore>
+            <previousscore>44852</previousscore>
+         </player>
+         <player username="KiddThunda">
+            <highScore>35878</highScore>
+            <previousscore>32871</previousscore>
+            <previousscore>24561</previousscore>
+            <previousscore>19999</previousscore>
+         </player>
+         <player username="sparkles">
+            <highScore>30223</highScore>
+            <previousscore>29999</previousscore>
+            <previousscore>24592</previousscore>
+         </player>
+      </players>
+   </server>
+   <server id="512">
+      <region>EU</region>
+      <servername>Shadow</servername>
+      <players>
+         <player username="Dodger">
+            <highScore>55848</highScore>
+            <previousscore>54448</previousscore>
+            <previousscore>41441</previousscore>
+            <previousscore>33989</previousscore>
+            <previousscore>32233</previousscore>
+            <previousscore>23343</previousscore>
+         </player>
+         <player username="SabrinaA">
+            <highScore>54565</highScore>
+            <previousscore>54365</previousscore>
+            <previousscore>53333</previousscore>
+            <previousscore>51233</previousscore>
+            <previousscore>49099</previousscore>
+            <previousscore>49874</previousscore>
+         </player>
+         <player username="Dam0">
+            <highScore>54565</highScore>
+            <previousscore>54365</previousscore>
+            <previousscore>53333</previousscore>
+            <previousscore>51233</previousscore>
+            <previousscore>49099</previousscore>
+            <previousscore>49874</previousscore>
+         </player>
+      </players>
+   </server>
+</servers>
