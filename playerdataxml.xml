@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <servers>
    <server id="500">
@@ -56,3 +57,22 @@
       </players>
    </server>
 </servers>
+=======
+<players>
+	<player username="Straven">
+		<highscore>49098</highscore>
+		<previousscore>30</previousscore>
+		<previousscore>20</previousscore>
+		<previousscore>10</previousscore>
+	</player>
+	<player username="KiddThunda">
+		<highscore>35878</highscore>
+		<previousscore>33</previousscore>
+		<previousscore>22</previousscore>
+		<previousscore>11</previousscore>
+	</player>
+	<player username="sparkles">
+		<highscore>30223</highscore>
+	</player>
+</players>
+>>>>>>> 4caa24851b702513e509a206d9a4fe47d0ffd56b
