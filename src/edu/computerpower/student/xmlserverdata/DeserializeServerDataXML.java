@@ -1,4 +1,4 @@
-package com.cp.dma.xml;
+package edu.computerpower.student.xmlserverdata;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,7 +15,53 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import edu.computerpower.student.xmlserverdata.serverobjects1.Player;
+import edu.computerpower.student.xmlserverdata.serverobjects1.ServerManager;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+
 public class DeserializeServerDataXML {
+	
+	public void deserialize3() throws Exception {
+        JAXBContext jc = JAXBContext.newInstance(ServerManager.class);
+
+        File xml = new File("playerdataxml2.xml");
+        Unmarshaller unmarshaller = jc.createUnmarshaller();
+        ServerManager serverManager = (ServerManager) unmarshaller.unmarshal(xml);
+        
+        System.out.println("xxx" + serverManager.getServers().size());
+        
+       
+
+        // this re-encodes it as XML and prints it out.
+        // if this matches the input XML you know its mapped it all to the beans.
+
+//        Marshaller marshaller = jc.createMarshaller();
+//        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+//        marshaller.marshal(serverManager, System.out);
+	}
+	
+	public void deserialize2() throws Exception {
+        JAXBContext jc = JAXBContext.newInstance(ServerManager.class);
+
+        File xml = new File("playerdataxml.xml");
+        Unmarshaller unmarshaller = jc.createUnmarshaller();
+        ServerManager serverManager = (ServerManager) unmarshaller.unmarshal(xml);
+        
+        System.out.println(serverManager.getServers().size());
+        
+       
+
+        // this re-encodes it as XML and prints it out.
+        // if this matches the input XML you know its mapped it all to the beans.
+
+//        Marshaller marshaller = jc.createMarshaller();
+//        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+//        marshaller.marshal(serverManager, System.out);
+	}
+
 	
 	public void deserialize() throws ParserConfigurationException, SAXException, IOException {
 

@@ -1,4 +1,4 @@
-package com.cp.dma.xml;
+package edu.computerpower.student.xmlserverdata.serverobjects2;
 
 import java.io.File;
 import java.io.IOException;

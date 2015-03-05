@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <servers>
-	<server id="500">
+	<server>
+		<id>500</id>
 		<region>AU</region>
 		<servername>Ghost</servername>
 		<players>
-			<player username="Straven">
+			<player>
+				<username>Straven</username>
 				<highScore>49098</highScore>
 				<previousscore>48090</previousscore>
 				<previousscore>45232</previousscore>
 				<previousscore>44931</previousscore>
 				<previousscore>44852</previousscore>
 			</player>
-			<player username="KiddThunda">
+			<player>
+				<username>KiddThunda</username>
 				<highScore>35878</highScore>
 				<previousscore>32871</previousscore>
 				<previousscore>24561</previousscore>
 				<previousscore>19999</previousscore>
 			</player>
-			<player username="sparkles">
+			<player>
+				<username>sparkles</username>
 				<highScore>30223</highScore>
 				<previousscore>29999</previousscore>
 				<previousscore>24592</previousscore>
 			</player>
 		</players>
 	</server>
-	<server id="512">
+	<server>
+		<id>512</id>
 		<region>EU</region>
 		<servername>Shadow</servername>
 		<players>
-			<player username="Dodger">
+			<player>
+				<username>Dodger</username>
 				<highScore>100000</highScore>
 				<previousscore>54448</previousscore>
 				<previousscore>41441</previousscore>
@@ -36,7 +42,8 @@
 				<previousscore>32233</previousscore>
 				<previousscore>23343</previousscore>
 			</player>
-			<player username="mizzX">
+			<player>
+				<username>mizzX</username>
 				<highScore>100000</highScore>
 				<previousscore>99999</previousscore>
 				<previousscore>99878</previousscore>
@@ -44,13 +51,14 @@
 				<previousscore>98777</previousscore>
 				<previousscore>98236</previousscore>
 				<previousscore>97632</previousscore>
-
 			</player>
-			<player username="SabrinaA">
+			<player>
+				<username>SabrinaA</username>
 				<highScore>54666</highScore>
 				<previousscore>53166</previousscore>
 			</player>
-			<player username="Dam0">
+			<player>
+				<username>Dam0</username>
 				<highScore>54565</highScore>
 				<previousscore>54365</previousscore>
 				<previousscore>53333</previousscore>
@@ -58,7 +66,8 @@
 				<previousscore>49999</previousscore>
 				<previousscore>49874</previousscore>
 			</player>
-			<player username="ninja09">
+			<player>
+				<username>ninja09</username>
 				<highScore>999</highScore>
 			</player>
 		</players>

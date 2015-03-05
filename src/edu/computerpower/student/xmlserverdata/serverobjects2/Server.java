@@ -1,18 +1,20 @@
-package com.cp.dma.xml;
+package edu.computerpower.student.xmlserverdata.serverobjects2;
 
+import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Server {
-
+    @XmlAttribute(name="id")
 	private int id;
 	private String region;
-	private String serverName;
+	private String servername;
+    @XmlElementWrapper(name="players")
+    @XmlElement(name="player")
 	private List<Player> players = new ArrayList<Player>();
 
 	public Server() {
-
 	}
 
 	public Server(int id, String region, String serverName, List<Player> players) {
@@ -39,11 +41,11 @@ public class Server {
 	}
 
 	public String getServerName() {
-		return serverName;
+		return servername;
 	}
 
-	public void setServerName(String serverName) {
-		this.serverName = serverName;
+	public void setServerName(String servername) {
+		this.servername = servername;
 	}
 
 	public List<Player> getPlayers() {
@@ -53,6 +55,5 @@ public class Server {
 	public void setPlayers(List<Player> players) {
 		this.players = players;
 	}
-
 
 }
